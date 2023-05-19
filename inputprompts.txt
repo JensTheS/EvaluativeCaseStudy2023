@@ -1,0 +1,32 @@
+def divide(a, b):
+
+def multiply(a, b):
+
+def subtract(a, b):
+
+def is_prime(num):
+
+def fibonacci(n):
+
+Calculate the nth Fibonacci number.
+def factorial(n):
+
+Calculate the factorial of n.
+def sum_of_digits(n):
+
+Calculate the sum of the digits of n.
+
+# Sort the list using the merge sort algorithm.
+def merge_sort(lst):
+
+# Search for the target in the sorted list using binary search.
+def binary_search(lst, target):
+
+# Sort the list using the quicksort algorithm.
+def quicksort(lst):
+
+# Sort the list using the bubble sort algorithm.
+def bubble_sort(lst):
+
+# Sort the list using the insertion sort algorithm.
+def insertion_sort(lst):
