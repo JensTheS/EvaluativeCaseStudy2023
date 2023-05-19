@@ -92,17 +92,17 @@ code_challenges = [
     {
         "prompt": "def quicksort(lst):",
         "comment": "# Sort the list using the quicksort algorithm.",
-        "max_tokens": 500,
+        "max_tokens": 1000,
     },
     {
         "prompt": "def bubble_sort(lst):",
         "comment": "# Sort the list using the bubble sort algorithm.",
-        "max_tokens": 500,
+        "max_tokens": 1000,
     },
     {
         "prompt": "def insertion_sort(lst):",
         "comment": "# Sort the list using the insertion sort algorithm.",
-        "max_tokens": 500,
+        "max_tokens": 1000,
     },
 ]
 
@@ -118,6 +118,6 @@ for challenge in code_challenges:
 for result in result_list:
     print(result["time"], result["num_tokens"])
 
-for result in result_list:
-    for key, output in result["output"].items():
-        print("Sequence {}: {}".format(key, format_response(output)))
+# for result in result_list:
+    # for key, output in result["output"].items():
+       # print("Sequence {}: {}".format(key, format_response(output)))
